@@ -6,13 +6,13 @@ class StudentReport{
 		avg = totalMarks/3;
 
 		if(avg > 70){
-			System.out.println("You got an A");
+		  System.out.println("You got an A");
 		}
 		else if(avg <= 70 && avg >= 50){
-			System.out.println("You got a B");
+		  System.out.println("You got a B");
 		}
 		else{
-			System.out.println("You got a C");
+		  System.out.println("You got a C");
 		}
 	}
 	public static void main(String[] args){
